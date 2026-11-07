@@ -1,0 +1,3 @@
+model,stage,f1_macro,std,train_f1_macro,best_params
+Decision Tree,tuned,0.5270521526796674,0.016549348131562724,0.7751431228969939,"{'model__min_samples_leaf': 1, 'model__max_depth': 10, 'model__class_weight': 'balanced'}"
+Bagging,tuned,0.6010636541759266,0.013465089013141352,0.9995625410631733,"{'model__n_estimators': 200, 'model__max_samples': 0.7, 'model__estimator__min_samples_leaf': 1, 'model__estimator__max_depth': None}"

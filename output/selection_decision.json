@@ -1,0 +1,8 @@
+{
+  "model": "Extra Trees",
+  "selection_metric": "f1_macro",
+  "selection_cv_mean": 0.6139502731401633,
+  "selection_cv_std": 0.017352799888099332,
+  "n_iter": 8,
+  "random_state": 42
+}

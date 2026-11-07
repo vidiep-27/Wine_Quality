@@ -1,0 +1,11 @@
+{
+  "owner": "quan",
+  "models": [
+    "Random Forest",
+    "Extra Trees"
+  ],
+  "n_iter": 8,
+  "random_state": 42,
+  "signature": "3d278404829ee1e8386b18ec6763a0dd5b61c99acf514a10f9f22f9e29da5e90",
+  "sklearn": "1.6.1"
+}

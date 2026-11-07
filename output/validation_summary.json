@@ -1,0 +1,23 @@
+{
+  "notebooks_executed": [
+    "eda.ipynb",
+    "chuanbi_dulieu.ipynb",
+    "huanluyen_danhgia.ipynb"
+  ],
+  "train_shape": [
+    4256,
+    12
+  ],
+  "test_shape": [
+    1064,
+    12
+  ],
+  "checks": [
+    "no target leakage columns",
+    "disjoint clean-row identifiers",
+    "saved Pipeline predictions equal test_predictions.csv",
+    "saved metrics reproduce exactly",
+    "no notebook error outputs"
+  ],
+  "evaluation_note": "No new fit or parameter selection during final verification."
+}

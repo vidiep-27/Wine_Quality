@@ -1,0 +1,27 @@
+{
+  "Decision Tree": {
+    "model__min_samples_leaf": 1,
+    "model__max_depth": 10,
+    "model__class_weight": "balanced"
+  },
+  "Bagging": {
+    "model__n_estimators": 200,
+    "model__max_samples": 0.7,
+    "model__estimator__min_samples_leaf": 1,
+    "model__estimator__max_depth": null
+  },
+  "Random Forest": {
+    "model__n_estimators": 200,
+    "model__min_samples_leaf": 3,
+    "model__max_features": "sqrt",
+    "model__max_depth": 20,
+    "model__class_weight": "balanced"
+  },
+  "Extra Trees": {
+    "model__n_estimators": 100,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt",
+    "model__max_depth": 20,
+    "model__class_weight": "balanced"
+  }
+}
